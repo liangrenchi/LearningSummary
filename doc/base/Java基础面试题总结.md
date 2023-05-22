@@ -278,3 +278,99 @@ System.out.println(person1.getAddress() == person1Copy.getAddress());
 一张图来描述浅拷贝、深拷贝、引用拷贝：
 
 ![浅拷贝、深拷贝、引用拷贝示意图](https://oss.javaguide.cn/github/javaguide/java/basis/shallow&deep-copy.png)
+
+
+
+### HashCode()有什么用？
+
+`hashCode()`的作用是获取哈希码（`int`整数），也称为散列码。这个哈希码的作用是确定哈希表中的索引位置。
+
+![hashCode() 方法](https://oss.javaguide.cn/github/javaguide/java/basis/java-hashcode-method.png)
+
+`hashCode`定义在JDK的`Object`类中，这就意味着Java中的任何类都包含有`hashCode`函数。另外需要注意的是：`Object`的`hashCode()`方法是本地方法，也就是用C语言或者C++实现的。
+
+### 为什么重写equals()时必须重写hashCode()方法？
+
+因为两个相等的对象的 `hashCode` 值必须是相等。也就是说如果 `equals` 方法判断两个对象是相等的，那这两个对象的 `hashCode` 值也要相等。
+
+如果重写 `equals()` 时没有重写 `hashCode()` 方法的话就可能会导致 `equals` 方法判断是相等的两个对象，`hashCode` 值却不相等。
+
+**思考**：重写 `equals()` 时没有重写 `hashCode()` 方法的话，使用 `HashMap` 可能会出现什么问题。
+
+**总结**：
+
+- `equals` 方法判断两个对象是相等的，那这两个对象的 `hashCode` 值也要相等。
+- 两个对象有相同的 `hashCode` 值，他们也不一定是相等的（哈希碰撞）。
+
+更多关于 `hashCode()` 和 `equals()` 的内容可以查看：https://www.cnblogs.com/skywang12345/p/3324958.html
+
+### Exception和Error有什么区别？
+
+在Java中，所有的异常都有一个共同的祖先`java.lang`包中的`Throwable`类。`Throwable`类有两个重要的子类：
+
+- `Exception`：程序本身可以处理的异常，可以通过`catch`来进行捕获。`Exception`又可以分为Checked Exception（受检查异常，必须处理）和Unchecked Exception（不受检查异常，可以不处理）。
+- `Error`：`Error`属于程序无法处理的错误，不建议通过`catch`捕获。例如Java虚拟机运行错误、虚拟机内存不够错误、类定义错误等。这些异常发生时，Java虚拟机（JVM）一般会选择线程终止。
+
+### Checked Exception 和 Unchecked Exception 有什么区别？
+
+**Checked Exception** 即 受检查异常 ，Java 代码在编译过程中，如果受检查异常没有被 `catch`或者`throws` 关键字处理的话，就没办法通过编译。
+
+比如下面这段 IO 操作的代码：
+
+![img](https://oss.javaguide.cn/github/javaguide/java/basis/checked-exception.png)
+
+除了`RuntimeException`及其子类以外，其他的`Exception`类及其子类都属于受检查异常 。常见的受检查异常有：IO 相关的异常、`ClassNotFoundException`、`SQLException`...。
+
+**Unchecked Exception** 即 **不受检查异常** ，Java 代码在编译过程中 ，我们即使不处理不受检查异常也可以正常通过编译。
+
+`RuntimeException` 及其子类都统称为非受检查异常，常见的有（建议记下来，日常开发中会经常用到）：
+
+- `NullPointerException`(空指针错误)
+- `IllegalArgumentException`(参数错误比如方法入参类型错误)
+- `NumberFormatException`（字符串转换为数字格式错误，`IllegalArgumentException`的子类）
+- `ArrayIndexOutOfBoundsException`（数组越界错误）
+- `ClassCastException`（类型转换错误）
+- `ArithmeticException`（算术错误）
+- `SecurityException` （安全错误比如权限不够）
+- `UnsupportedOperationException`(不支持的操作错误比如重复创建同一用户)
+- ......
+
+![img](https://oss.javaguide.cn/github/javaguide/java/basis/unchecked-exception.png)
+
+### Throwable类常用方法有哪些？
+
+- `String.getMessage()`：返回异常发生时的简要描述
+- `String.toString()`：返回异常发生时的详细信息
+- `String.getLocalizedMessage()`：返回异常对象的本地化信息。使用`Throwable`的子类覆盖这个方法，可以生成本地化信息。如果子类没有覆盖访方法，则该方法返回的结果相同
+- `void printStackTrace()`：在控制台上打印`Throwable`对象封装的异常信息
+
+### finally 中的代码一定会执行吗？
+
+不一定的！在某些情况下，finally 中的代码不会被执行。
+
+就比如说 finally 之前虚拟机被终止运行的话，finally 中的代码就不会被执行。
+
+```java
+try {
+    System.out.println("Try to do something");
+    throw new RuntimeException("RuntimeException");
+} catch (Exception e) {
+    System.out.println("Catch Exception -> " + e.getMessage());
+    // 终止当前正在运行的Java虚拟机
+    System.exit(1);
+} finally {
+    System.out.println("Finally");
+}
+```
+
+输出：
+
+```
+Try to do something
+Catch Exception -> RuntimeException
+```
+
+另外，在以下 2 种特殊情况下，`finally` 块的代码也不会被执行：
+
+1. 程序所在的线程死亡。
+2. 关闭 CPU。

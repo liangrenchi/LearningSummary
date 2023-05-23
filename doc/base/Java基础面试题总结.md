@@ -552,5 +552,13 @@ printArray( stringArray  );
 
 5、`框架开发`：许多框架都使用反射来实现自动化配置和扩展机制，比如Spring框架的IOC和AOP
 
+### BIO、NIO、AIO的区别？
+
+参考答案：https://javaguide.cn/java/io/io-model.html
+
+### JAVA语法糖详解
+
+文章：https://javaguide.cn/java/basis/syntactic-sugar.html
+
 
 

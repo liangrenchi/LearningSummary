@@ -374,3 +374,183 @@ Catch Exception -> RuntimeException
 
 1. 程序所在的线程死亡。
 2. 关闭 CPU。
+
+### 如何使用try-with-resources代替try-catch-finally？
+
+1、**适用范围（资源的定义）**：任何实现`java.lang.AutoCloseable`或者`java.io.Closeable`的对象
+
+2、**关闭资源和finally块的执行顺序**：在`try-with-resources`语句中，任何catch和finally块在声明资源关闭后运行
+
+《Effective Java》中明确指出：
+
+> 面对必须要关闭的资源，我们总是应该优先使用 try-with-resources 而不是try-finally。随之产生的代码更简短，更清晰，产生的异常对我们也更有用。try-with-resources语句让我们更容易编写必须要关闭的资源的代码，若采用try-finally则几乎做不到这点。
+
+Java中类似于`InputStram`、`OutputStram`、`Scanner`、`PrintWrite`等的资源都需要我们调用`close()`方法来手动关闭，一般情况下我们都是通过`try-catch-finally`语句来实现这个需求，如下：
+
+```java
+//读取文本文件的内容
+Scanner scanner = null;
+try {
+    scanner = new Scanner(new File("D://read.txt"));
+    while (scanner.hasNext()) {
+        System.out.println(scanner.nextLine());
+    }
+} catch (FileNotFoundException e) {
+    e.printStackTrace();
+} finally {
+    if (scanner != null) {
+        scanner.close();
+    }
+}
+```
+
+使用 Java 7 之后的 `try-with-resources` 语句改造上面的代码:
+
+```java
+try (Scanner scanner = new Scanner(new File("test.txt"))) {
+    while (scanner.hasNext()) {
+        System.out.println(scanner.nextLine());
+    }
+} catch (FileNotFoundException fnfe) {
+    fnfe.printStackTrace();
+}
+```
+
+当然多个资源需要关闭的时候，使用 `try-with-resources` 实现起来也非常简单，如果你还是用`try-catch-finally`可能会带来很多问题。
+
+通过使用分号分隔，可以在`try-with-resources`块中声明多个资源。
+
+```java
+try (BufferedInputStream bin = new BufferedInputStream(new FileInputStream(new File("test.txt")));
+     BufferedOutputStream bout = new BufferedOutputStream(new FileOutputStream(new File("out.txt")))) {
+    int b;
+    while ((b = bin.read()) != -1) {
+        bout.write(b);
+    }
+}
+catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+### 什么是泛形？有什么用？
+
+Java泛形是JDK5中引入的一个新特性。使用泛形参数，可以增强代码的可读性以及稳定性。
+
+编译器可以对泛形参数进行检测，并且通过泛形参数可以指定传入的对象类型。比如`ArrayList<Person> persons = new ArrayList<Person>()`这行代码就指明了该`ArrayList`对象只能传入`Person`对象，如果传入了其他类型的对象就会报错。
+
+```java
+ArrayList<E> extends AbstractList<E>
+```
+
+并且，原生 `List` 返回类型是 `Object` ，需要手动转换类型才能使用，使用泛型后编译器自动转换。
+
+### 泛形的使用方式有哪几种？
+
+泛形一般有三种使用方式：**泛形类、泛形接口、泛形方法**
+
+**1、泛形类**：
+
+```java
+//此处T可以随便写为任意标识，常见的如T、E、K、V等形式的参数常用于表示泛型
+//在实例化泛型类时，必须指定T的具体类型
+public class Generic<T>{
+
+    private T key;
+
+    public Generic(T key) {
+        this.key = key;
+    }
+
+    public T getKey(){
+        return key;
+    }
+}
+```
+
+如何实例化泛型类：
+
+```java
+Generic<Integer> genericInteger = new Generic<Integer>(123456);
+```
+
+**2.泛型接口**：
+
+```java
+public interface Generator<T> {
+    public T method();
+}
+```
+
+实现泛型接口，不指定类型：
+
+```java
+class GeneratorImpl<T> implements Generator<T>{
+    @Override
+    public T method() {
+        return null;
+    }
+}
+```
+
+实现泛型接口，指定类型：
+
+```java
+class GeneratorImpl<T> implements Generator<String>{
+    @Override
+    public String method() {
+        return "hello";
+    }
+}
+```
+
+**3.泛型方法**：
+
+```java
+   public static < E > void printArray( E[] inputArray )
+   {
+         for ( E element : inputArray ){
+            System.out.printf( "%s ", element );
+         }
+         System.out.println();
+    }
+```
+
+使用：
+
+```java
+// 创建不同类型数组：Integer, Double 和 Character
+Integer[] intArray = { 1, 2, 3 };
+String[] stringArray = { "Hello", "World" };
+printArray( intArray  );
+printArray( stringArray  );
+```
+
+> 注意: `public static < E > void printArray( E[] inputArray )` 一般被称为静态泛型方法;在 java 中泛型只是一个占位符，必须在传递类型后才能使用。类在实例化时才能真正的传递类型参数，由于静态方法的加载先于类的实例化，也就是说类中的泛型还没有传递真正的类型参数，静态的方法的加载就已经完成了，所以静态泛型方法是没有办法使用类上声明的泛型的。只能使用自己声明的 `<E>
+
+### 谈一谈你对反射的理解
+
+**何谓反射**
+
+反射被称为框架的灵魂，主要是因为它赋予我们在运行时分析类以及执行类中方法的能力。通过反射你可以获取任意一个类的所有属性和方法，还可以调用这些方法和属性。
+
+**反射优缺点**
+
+**优点**：反射可以让我们的代码更加灵活、为各种框架提供开箱即用的功能提供了便利。
+
+**缺点**：存在安全问题，比如可以无视泛形参数的安全检查（泛形参数的安全检查发生在编译时），另外，反射的性能也稍差点。
+
+**反射的应用场㬌**
+
+1、`动态代理`：动态代理的实现依赖反射，JDK实现动态代理就是使用反射类Method来调用指定的方法
+
+2、`使用注解`：通过反射获取类、方法、属性等信息，来实现注解的解析和应用
+
+3、`序列化和反序列化`：通过反射来获取对象的属性和方法，然后将其转换字节流进行序列化和反序列化。
+
+4、`单元测试`：通过反射来获取类的私有方法和属性，从而实现单元测试
+
+5、`框架开发`：许多框架都使用反射来实现自动化配置和扩展机制，比如Spring框架的IOC和AOP
+
+
+

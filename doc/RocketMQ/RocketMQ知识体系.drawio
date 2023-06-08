@@ -1,0 +1,423 @@
+<mxfile host="Electron" modified="2023-06-08T06:18:55.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="gWiA6TTFzdGH1_UT4sfV" version="21.2.8" type="device">
+  <diagram name="第 1 页" id="Zf9LUiRRFwYf5Y3JqdIo">
+    <mxGraphModel dx="1434" dy="844" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zmXWe5vmmWPIRRos88On-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-76" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.215;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-109" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-1" target="zmXWe5vmmWPIRRos88On-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-1" value="RocketMQ知识体系" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="672" y="645" width="134" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.945;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-2" target="zmXWe5vmmWPIRRos88On-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-2" target="zmXWe5vmmWPIRRos88On-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.791;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-2" target="zmXWe5vmmWPIRRos88On-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="RocketMQ路由中心NameServer" link="data:page/id,Zf9LUiRRFwYf5Y3JqdIo" id="zmXWe5vmmWPIRRos88On-2">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="340" y="489" width="121" height="121" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="NameServer架构设计" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-3">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="194" y="392" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="NameServer启动流程" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-4">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="182" y="534" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="NameServer路由注册、故障剔除" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-7">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="262" y="645" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zmXWe5vmmWPIRRos88On-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-10" target="zmXWe5vmmWPIRRos88On-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.637;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-10" target="zmXWe5vmmWPIRRos88On-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-10" target="zmXWe5vmmWPIRRos88On-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-10" target="zmXWe5vmmWPIRRos88On-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-10" target="zmXWe5vmmWPIRRos88On-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-10" value="RocketMQ消息发送" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="579.5" y="333" width="121" height="121" as="geometry" />
+        </mxCell>
+        <UserObject label="漫谈RocketMQ消息发送" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="410" y="299" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="认识RocketMQ消息" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="493" y="220" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="生产者启动流程" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-16">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="593" y="187" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息发送基本流程" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-18">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="688" y="216" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="批量消息发送" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-19">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="749" y="293" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zmXWe5vmmWPIRRos88On-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.297;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-22" target="zmXWe5vmmWPIRRos88On-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="RocketMQ消息存储" link="data:page/id,Zf9LUiRRFwYf5Y3JqdIo" id="zmXWe5vmmWPIRRos88On-22">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="995" y="421" width="121" height="121" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="存储概要设计" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-23">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="859" y="373" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="初识消息存储" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-25">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="946" y="301" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息发送存储流程" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-28">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1046" y="290" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="存储文件组织与内存映射" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-30">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="333" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="RocketMQ存储文件" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-32">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1187" y="428" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="实时更新消息消费队列与索引文件" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-34">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1167" y="528" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息队列与索引文件恢复" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-36">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1089" y="602" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="文件刷盘机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-39">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="964" y="610" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;过期文件删除机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-41">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="814" y="476" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zmXWe5vmmWPIRRos88On-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324.5" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.341;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-62" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-44" target="zmXWe5vmmWPIRRos88On-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="RocketMQ消息消费" link="data:page/id,Zf9LUiRRFwYf5Y3JqdIo" id="zmXWe5vmmWPIRRos88On-44">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="291" y="995" width="121" height="121" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="RocketMQ消息消费概述" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-45">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="209" y="858" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息消费者初探" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-47">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="147" y="942" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消费者启动流程" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-49">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="143" y="1036" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息拉取" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-51">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="192" y="1132" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息队列负载与重新分布机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-53">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="285" y="1171" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息消费过程" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-55">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="395" y="1139" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="定时消息机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-57">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="465" y="1058" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;消息过滤机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-59">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="310" y="836" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="顺序消息" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-61">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="410" y="874" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zmXWe5vmmWPIRRos88On-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-64" target="zmXWe5vmmWPIRRos88On-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.769;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-64" target="zmXWe5vmmWPIRRos88On-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.242;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-64" target="zmXWe5vmmWPIRRos88On-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-64" target="zmXWe5vmmWPIRRos88On-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-64" value="消息过滤FilterServer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="666" y="1137" width="121" height="121" as="geometry" />
+        </mxCell>
+        <UserObject label="ClassFilter运行机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-65">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="811" y="1246" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="FilterServer注册剖析" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-67">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="525" y="1155" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="类过滤模式订阅机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-69">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="586" y="1280" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息拉取" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-71">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="715" y="1294" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zmXWe5vmmWPIRRos88On-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-75" target="zmXWe5vmmWPIRRos88On-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-80" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-75" target="zmXWe5vmmWPIRRos88On-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-75" value="RocketMQ主从同步（HA）机制" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="934" y="1093" width="121" height="121" as="geometry" />
+        </mxCell>
+        <UserObject label="RocketMQ主从复制原理" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-77">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="938" y="1258" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="RocketMQ读写分离机制" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-79">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1078" y="1230" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zmXWe5vmmWPIRRos88On-83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-81" target="zmXWe5vmmWPIRRos88On-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-85" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.011;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-81" target="zmXWe5vmmWPIRRos88On-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-81" target="zmXWe5vmmWPIRRos88On-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-91" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.989;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-81" target="zmXWe5vmmWPIRRos88On-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-81" value="RocketMQ事务消息" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="995" width="121" height="121" as="geometry" />
+        </mxCell>
+        <UserObject label="事务消息实现思想" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-82">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1192" y="1167" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="事务消息发送流程" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-84">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1278" y="1095" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="事务消息提交或回滚" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-86">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1283" y="986" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="事务消息回查事务状态" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-88">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="987" y="978" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="zmXWe5vmmWPIRRos88On-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-96" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.055;entryY=0.681;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-98" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.923;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.989;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zmXWe5vmmWPIRRos88On-92" target="zmXWe5vmmWPIRRos88On-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zmXWe5vmmWPIRRos88On-92" value="RocketMQ实战" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1172" y="757" width="121" height="121" as="geometry" />
+        </mxCell>
+        <UserObject label="消息批量发送" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-93">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1315" y="649" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息发送队列自选择" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-95">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1374" y="721" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="消息过滤" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-97">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1381" y="819" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;事务消息" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-99">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1290" y="880" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Spring整合RocketMQ" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-101">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1153" y="883" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Spring Cloud整合RocketMQ" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-103">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1046" y="834" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="RocketMQ监控与运维命令" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-105">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1055" y="728" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="应用场景分析" link="https://blog.liangrenchi.top/2020/06/06/%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E4%B8%AD%E6%8F%90%E7%A4%BA%E9%A1%B5%E9%9D%A2/" id="zmXWe5vmmWPIRRos88On-107">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1185" y="640" width="91" height="91" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
